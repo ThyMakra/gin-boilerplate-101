@@ -1,0 +1,7 @@
+.vscode/
+
+pg_data/
+
+backend/bin/go-app
+
+.env
