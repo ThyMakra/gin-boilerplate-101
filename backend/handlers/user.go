@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
+	"github.com/ThyMakra/gin-boilerplate/backend/pkg/utils"
 	"github.com/ThyMakra/gin-boilerplate/backend/schemas"
 	"github.com/ThyMakra/gin-boilerplate/backend/services"
-	"github.com/ThyMakra/gin-boilerplate/pkg/utils"
 	"github.com/gin-gonic/gin"
 )
 

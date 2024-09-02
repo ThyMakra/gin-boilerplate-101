@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/ThyMakra/gin-boilerplate/backend/models"
+	"github.com/ThyMakra/gin-boilerplate/backend/pkg"
 	"github.com/ThyMakra/gin-boilerplate/backend/routes"
-	"github.com/ThyMakra/gin-boilerplate/pkg"
 	helmet "github.com/danielkov/gin-helmet"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -30,8 +30,6 @@ func main() {
 }
 
 func setupDatabase() *gorm.DB {
-
-	fmt.Println(">>>>>> ", pkg.GetEnv("DATABASE_URL"))
 	db, err := gorm.Open(
 		postgres.Open(pkg.GetEnv("DATABASE_URL")),
 		&gorm.Config{

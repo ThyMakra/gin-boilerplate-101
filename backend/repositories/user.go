@@ -5,8 +5,8 @@ import (
 
 	"github.com/ThyMakra/gin-boilerplate/backend/constant"
 	"github.com/ThyMakra/gin-boilerplate/backend/models"
+	"github.com/ThyMakra/gin-boilerplate/backend/pkg/utils"
 	"github.com/ThyMakra/gin-boilerplate/backend/schemas"
-	"github.com/ThyMakra/gin-boilerplate/pkg/utils"
 
 	"gorm.io/gorm"
 )

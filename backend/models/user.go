@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/ThyMakra/gin-boilerplate/pkg/utils"
+	"github.com/ThyMakra/gin-boilerplate/backend/pkg/utils"
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 )
